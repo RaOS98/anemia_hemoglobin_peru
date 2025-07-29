@@ -1,3 +1,10 @@
+project_structure.txt
+# Ignore everything inside /data/raw/
+data/raw/*
+
+# Except the folder itself
+!data/raw/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
